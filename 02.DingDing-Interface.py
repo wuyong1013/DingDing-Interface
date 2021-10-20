@@ -57,7 +57,7 @@ def post_to_dd(content):
     logging.info(res.text)
 
 #请求接口
-gf_url = "https://u-d-office.lanshan.com/download/office"
+gf_url = ""
 #请求头
 header = {'Content-Type': 'application/json;charset=UTF-8'}
 #接口请求的json数据
